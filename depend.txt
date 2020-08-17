@@ -1,0 +1,665 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+
+base gradle start
+
+{org.gradle.daemon=true, android.enableR8=false, ji_cheng_qu_id=0, org.gradle.jvmargs=-Xmx4g -XX:MaxPermSize=512m, sensitive_check=false}
+{android.enableR8=false, ji_cheng_qu_id=0, org.gradle.daemon=true, sdk={packageName=com.beibeigroup.xretail, versionCode=380, versionName=3.13.00, minSdkVersion=19, targetSdkVersion=28, compileSdkVersion=28, buildToolsVersion=28.0.3, gradlePluginVersion=3.4.2, kotlinVersion=1.3.40, kotlinCoroutinesVersion=1.3.1, sprintVersionCode=9999, sprintVersionName=3.99.00, GETUI_APP_ID=YLjnT8PhHkAD44ibo3t079, GETUI_APP_KEY=SAmpMcF2Vo9eXCxJk2pPf3, GETUI_APP_SECRET=oik6TDqYH29GhStOI3PuW3, GY_APP_ID=zpnlzJzwTa5iYchu9kpRn6, GY_CHANNEL=xretail, XG_ACCESS_ID=2100333462, XG_ACCESS_KEY=A53TG9HR2I7L, VIVO_API_KEY=3eaa79be-a141-4a18-9910-123456789012, VIVO_APP_ID=10000, HUAWEI_APP_ID=, HUAWEI_PUSH_HOST=com.youtuan.huawei, appcompatV7=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure1@d998964, design=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure2@674fb668, cardviewV7=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure3@ec13b6b, recyclerviewV7=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure4@78883395, multidex=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure5@399b5749, Weex=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure6@237d5ae4, Home=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure7@24602783, Member=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure8@1dcdac01, Brand=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure9@7e0f81ee, Trade=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure10@376c5eb1, Share=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure11@12152be0, Search=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure12@62483007, Bargain=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure13@604acd51, Exchange=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure14@35068e3f, Identify=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure15@e77f954, Store=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure16@2d9c2895, BeiDai=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure17@1b8a5832, Biz=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure18@1a7c4a0a, Compat=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure19@2bf0ad48, XRetailSdk=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure20@6764f023, HBSDK=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure21@2ee67f35, HBPullToRefreshCompiler=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure22@56325cf9, HBRouterCompiler=base_9q79lz0zy18ei4hr8g7ydhhhw$_run_closure23@7806219a}, org.gradle.jvmargs=-Xmx4g -XX:MaxPermSize=512m, sensitive_check=false}
+
+base gradle end
+
+override: Home
+override: Brand
+override: Member
+override: Trade
+override: Share
+override: Search
+override: Bargain
+override: Store
+override: Biz
+override: Compat
+override: XRetailSdk
+
+> Configure project :App
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+xretailsdk exist, exclude all aar dependences
+biz exist, exclude all aar dependences
+WARNING: API 'variant.getAssemble()' is obsolete and has been replaced with 'variant.getAssembleProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getAssemble(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :xretail_sdk
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+WARNING: API 'variantOutput.getProcessResources()' is obsolete and has been replaced with 'variantOutput.getProcessResourcesProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getProcessResources(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+
+> Configure project :xretail_compat
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_home
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_brand
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_member
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_trade
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_share
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_search
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_biz
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_bargain
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :xretail_store
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/arirus/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+
+> Configure project :App
+process_resources:processResourcesTask:processBeibeiDebugResources
+process_resources:processResourcesTask:processBeibeiReleaseResources
+transformClassesWithMultidexlistFor:transformClassesWithMultidexlistFor:transformClassesWithMultidexlistForBeibeiRelease
+
+> Task :App:dependencies
+
+------------------------------------------------------------
+Project :App
+------------------------------------------------------------
+
+beibeiReleaseCompileClasspath - Compile classpath for compilation 'beibeiRelease' (target  (androidJvm)).
++--- com.android.support:multidex:1.0.2
++--- com.android.support:multidex:{strictly 1.0.2} -> 1.0.2 (c)
++--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:{strictly 1.3.40} -> 1.3.40 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib:{strictly 1.3.50} -> 1.3.50 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-common:{strictly 1.3.50} -> 1.3.50 (c)
++--- org.jetbrains:annotations:{strictly 13.0} -> 13.0 (c)
++--- com.android.support.constraint:constraint-layout:{strictly 1.1.3} -> 1.1.3 (c)
++--- com.android.support.constraint:constraint-layout-solver:{strictly 1.1.3} -> 1.1.3 (c)
++--- com.beibei.android:hbsdk:{strictly 9.40.00} -> 9.40.00 (c)
++--- com.android.support:appcompat-v7:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:support-annotations:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:support-compat:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:collections:{strictly 28.0.0} -> 28.0.0 (c)
++--- android.arch.lifecycle:runtime:{strictly 1.1.1} -> 1.1.1 (c)
++--- android.arch.lifecycle:common:{strictly 1.1.1} -> 1.1.1 (c)
++--- android.arch.core:common:{strictly 1.1.1} -> 1.1.1 (c)
++--- com.android.support:versionedparcelable:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:cursoradapter:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:support-core-utils:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:documentfile:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:loader:{strictly 28.0.0} -> 28.0.0 (c)
++--- android.arch.lifecycle:livedata:{strictly 1.1.1} -> 1.1.1 (c)
++--- android.arch.core:runtime:{strictly 1.1.1} -> 1.1.1 (c)
++--- android.arch.lifecycle:livedata-core:{strictly 1.1.1} -> 1.1.1 (c)
++--- android.arch.lifecycle:viewmodel:{strictly 1.1.1} -> 1.1.1 (c)
++--- com.android.support:localbroadcastmanager:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:print:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:support-fragment:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:support-core-ui:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:customview:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:viewpager:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:coordinatorlayout:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:drawerlayout:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:slidingpanelayout:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:interpolator:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:swiperefreshlayout:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:asynclayoutinflater:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:support-vector-drawable:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:animated-vector-drawable:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:design:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:transition:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:cardview-v7:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:recyclerview-v7:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:exifinterface:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.beibei.android:Share:{strictly 1.3.11} -> 1.3.11 (c)
++--- de.greenrobot:eventbus:{strictly 2.4.1} -> 2.4.1 (c)
++--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:{strictly 5.4.3} -> 5.4.3 (c)
++--- com.sina.weibo.sdk:core:{strictly 4.2.7} -> 4.2.7 (c)
++--- com.beibei.android:imageloader:{strictly 3.5.19} -> 3.5.19 (c)
++--- com.android.support:support-v4:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.android.support:support-media-compat:{strictly 28.0.0} -> 28.0.0 (c)
++--- com.beibei.android.glide:glide:{strictly 4.4.9} -> 4.4.9 (c)
++--- com.beibei.android.glide:gifdecoder:{strictly 4.4.9} -> 4.4.9 (c)
++--- com.beibei.android.glide:disklrucache:{strictly 4.4.9} -> 4.4.9 (c)
++--- com.beibei.android.glide:annotations:{strictly 4.4.9} -> 4.4.9 (c)
++--- com.beibei.android:analyse:{strictly 6.1.11} -> 6.1.11 (c)
++--- com.beibei.android:PullToRefresh:{strictly 2.0.3} -> 2.0.3 (c)
++--- pl.droidsonroids.gif:android-gif-drawable:{strictly 1.1.10} -> 1.1.10 (c)
++--- com.beibei.android:pulltorefresh-annotations:{strictly 1.2.1} -> 1.2.1 (c)
++--- com.beibei.android:hbrouter:{strictly 1.4.5} -> 1.4.5 (c)
++--- com.beibei.android:hbrouter-annotations:{strictly 1.3.5} -> 1.3.5 (c)
++--- com.google.code.gson:gson:{strictly 2.8.0} -> 2.8.0 (c)
++--- com.beibei.android:common_utils:{strictly 1.0.9} -> 1.0.9 (c)
++--- com.beibei.android:rtlog:{strictly 1.1.5} -> 1.1.5 (c)
++--- com.beibei.android:oreofix-helper:{strictly 1.0.3} -> 1.0.3 (c)
++--- com.beibei.android:netlibrary:{strictly 3.1.23} -> 3.1.23 (c)
++--- org.msgpack:msgpack-core:{strictly 0.7.1} -> 0.7.1 (c)
++--- com.beibei.android:hbhttpsgate:{strictly 1.0.15} -> 1.0.15 (c)
++--- com.squareup.okhttp3:okhttp:{strictly 3.11.0} -> 3.11.0 (c)
++--- com.squareup.okio:okio:{strictly 1.14.0} -> 1.14.0 (c)
++--- com.squareup.okhttp3:logging-interceptor:{strictly 3.10.0} -> 3.10.0 (c)
++--- com.beibei.android:httpdns:{strictly 1.1.12} -> 1.1.12 (c)
++--- com.beibei.android:hbwebpdecoder:{strictly 1.0.0} -> 1.0.0 (c)
++--- com.tencent.bugly:crashreport:{strictly 2.8.6.0} -> 2.8.6.0 (c)
++--- com.beibei.android:autodata:{strictly 1.5.9} -> 1.5.9 (c)
++--- com.beibei.android:viewpagerindicator:{strictly 1.0.0} -> 1.0.0 (c)
++--- com.beibei.android:zxing:{strictly 1.0.17} -> 1.0.17 (c)
++--- com.beibei.android:basesdk:{strictly 8.1.07} -> 8.1.07 (c)
++--- com.google.zxing:core:{strictly 3.3.2} -> 3.3.2 (c)
++--- com.beibei.android:pagerslidingtabstrip:{strictly 1.1.6} -> 1.1.6 (c)
++--- com.beibei.android:xmppsdk:{strictly 1.5.9} -> 1.5.9 (c)
++--- com.orhanobut:logger:{strictly 1.8} -> 1.8 (c)
++--- com.beibei.android:colortextview:{strictly 1.0.5} -> 1.0.5 (c)
++--- com.beibei.android:hbaction:{strictly 1.1.4} -> 1.1.4 (c)
++--- com.beibei.android:hbhybrid:{strictly 3.6.0} -> 3.6.0 (c)
++--- com.beibei.android:hbpoplayer:{strictly 1.0.0} -> 1.0.0 (c)
++--- com.beibei.android:hblocation:{strictly 2.0.6} -> 2.0.6 (c)
++--- com.beibei.android:hbview:{strictly 1.3.2} -> 1.3.2 (c)
++--- com.beibei.android:adsfetcher:{strictly 2.0.1} -> 2.0.1 (c)
++--- com.beibei.android:hbupdate:{strictly 1.4.0} -> 1.4.0 (c)
++--- com.beibei.android:hbvideoplayer:{strictly 1.2.8} -> 1.2.8 (c)
++--- tv.danmaku.ijk.media:ijkplayer-java:{strictly 0.8.4} -> 0.8.4 (c)
++--- tv.danmaku.ijk.media:ijkplayer-armv7a:{strictly 0.8.4} -> 0.8.4 (c)
++--- com.beibei.android:hburanus:{strictly 3.2.11} -> 3.2.11 (c)
++--- com.huawei.android.hms:push:{strictly 2.6.3.301} -> 2.6.3.301 (c)
++--- com.huawei.android.hms:base:{strictly 2.6.3.301} -> 2.6.3.301 (c)
++--- com.getui:sdk:{strictly 2.13.2.0} -> 2.13.2.0 (c)
++--- com.beibei.android:hblabels:{strictly 1.0.6} -> 1.0.6 (c)
++--- com.beibei.android:hbcell:{strictly 1.0.2} -> 1.0.2 (c)
++--- com.beibei.android:hbpatch:{strictly 1.1.1} -> 1.1.1 (c)
++--- com.tencent.tinker:tinker-android-lib:{strictly 1.9.14} -> 1.9.14 (c)
++--- com.tencent.tinker:tinker-android-loader:{strictly 1.9.14} -> 1.9.14 (c)
++--- com.tencent.tinker:tinker-commons:{strictly 1.9.14} -> 1.9.14 (c)
++--- com.tencent.tinker:aosp-dexutils:{strictly 1.9.14} -> 1.9.14 (c)
++--- com.tencent.tinker:bsdiff-util:{strictly 1.9.14} -> 1.9.14 (c)
++--- com.tencent.tinker:tinker-ziputils:{strictly 1.9.14} -> 1.9.14 (c)
++--- com.beibei.android:hblog:{strictly 1.1.2} -> 1.1.2 (c)
++--- com.beibei.android:hbmarsxlog:{strictly 1.0.1} -> 1.0.1 (c)
++--- com.beibei.android:hbreporter:{strictly 1.0.10} -> 1.0.10 (c)
++--- com.beibei.android:bizview:{strictly 9.5.00} -> 9.5.00 (c)
++--- com.beibei.android:debugdevelopsdk:{strictly 1.0.0} -> 1.0.0 (c)
++--- com.beibei.android:hbscene:{strictly 1.2.0} -> 1.2.0 (c)
++--- me.imid.swipebacklayout.lib:library:{strictly 1.1.0} -> 1.1.0 (c)
++--- se.emilsjolander:stickylistheaders:{strictly 2.7.0} -> 2.7.0 (c)
++--- com.makeramen:roundedimageview:{strictly 1.5.0} -> 1.5.0 (c)
++--- jp.co.cyberagent.android.gpuimage:gpuimage-library:{strictly 1.4.1} -> 1.4.1 (c)
++--- com.github.hotchemi:permissionsdispatcher:{strictly 3.3.1} -> 3.3.1 (c)
++--- com.github.hotchemi:permissionsdispatcher-annotation:{strictly 3.3.1} -> 3.3.1 (c)
++--- com.google.android:flexbox:{strictly 0.3.1} -> 0.3.1 (c)
++--- com.samskivert:jmustache:{strictly 1.13} -> 1.13 (c)
++--- com.squareup.duktape:duktape-android:{strictly 1.2.0} -> 1.2.0 (c)
++--- org.jsoup:jsoup:{strictly 1.11.2} -> 1.11.2 (c)
++--- com.alibaba:fastjson:{strictly 1.2.67} -> 1.2.67 (c)
++--- com.jakewharton:butterknife:{strictly 9.0.0} -> 9.0.0 (c)
++--- com.jakewharton:butterknife-runtime:{strictly 9.0.0} -> 9.0.0 (c)
++--- com.jakewharton:butterknife-annotations:{strictly 9.0.0} -> 9.0.0 (c)
++--- com.github.wangjiegulu:ShadowViewHelper:{strictly 1.0.2} -> 1.0.2 (c)
++--- io.reactivex.rxjava2:rxjava:{strictly 2.1.0} -> 2.1.0 (c)
++--- org.reactivestreams:reactive-streams:{strictly 1.0.0} -> 1.0.0 (c)
++--- io.reactivex.rxjava2:rxandroid:{strictly 2.0.1} -> 2.0.1 (c)
++--- com.beibei.android:hbautumn:{strictly 2.1.23} -> 2.1.23 (c)
++--- com.facebook.yoga.android:yoga-layout:{strictly 1.10.0} -> 1.10.0 (c)
++--- com.facebook.yoga:yoga:{strictly 1.10.0} -> 1.10.0 (c)
++--- com.facebook.soloader:soloader:{strictly 0.8.0} -> 0.8.0 (c)
++--- com.facebook.soloader:annotation:{strictly 0.8.0} -> 0.8.0 (c)
++--- com.facebook.soloader:nativeloader:{strictly 0.8.0} -> 0.8.0 (c)
++--- com.beibei.android:hbfeedback:{strictly 1.1.6} -> 1.1.6 (c)
++--- com.beibei.android:lottie:{strictly 2.2.5} -> 2.2.5 (c)
++--- com.beibei.android.ucrop:ucrop:{strictly 2.2.0} -> 2.2.0 (c)
++--- com.llew.huawei:verifier:{strictly 1.1.1} -> 1.1.1 (c)
++--- com.meituan.android.walle:library:{strictly 1.1.6} -> 1.1.6 (c)
++--- com.meituan.android.walle:payload_reader:{strictly 1.1.6} -> 1.1.6 (c)
++--- commons-io:commons-io:{strictly 2.4} -> 2.4 (c)
++--- org.jetbrains.kotlinx:kotlinx-coroutines-core:{strictly 1.3.1} -> 1.3.1 (c)
++--- org.jetbrains.kotlinx:kotlinx-coroutines-android:{strictly 1.3.1} -> 1.3.1 (c)
++--- com.getui:gysdk:{strictly 1.6.0.1} -> 1.6.0.1 (c)
++--- com.getui:gtc:{strictly 2.1.0} -> 2.1.0 (c)
++--- com.getui:elogin:{strictly 1.1.0.1} -> 1.1.0.1 (c)
++--- com.beibei.android:hbdevsdk:{strictly 1.1.4} -> 1.1.4 (c)
++--- me.weishu:free_reflection:{strictly 2.1.0} -> 2.1.0 (c)
++--- com.android.support:palette-v7:{strictly 26.1.0} -> 26.1.0 (c)
++--- com.github.chrisbanes:PhotoView:{strictly 2.0.0} -> 2.0.0 (c)
++--- com.beibei.android:weex:{strictly 2.0.26} -> 2.0.26 (c)
++--- com.beibei.android:weex_sdk:{strictly 0.28.0.20} -> 0.28.0.20 (c)
++--- com.beibei.android:weexinspector:{strictly 1.0.40} -> 1.0.40 (c)
++--- com.taobao.android.weex_inspection:protocol:{strictly 1.1.2} -> 1.1.2 (c)
++--- com.squareup.okhttp:okhttp:{strictly 2.3.0} -> 2.3.0 (c)
++--- com.squareup.okhttp:okhttp-ws:{strictly 2.3.0} -> 2.3.0 (c)
++--- org.ccil.cowan.tagsoup:tagsoup:{strictly 1.2.1} -> 1.2.1 (c)
++--- com.alibaba.android:bindingx-core:{strictly 1.0.2} -> 1.0.2 (c)
++--- com.alibaba.android:bindingx_weex_plugin:{strictly 1.0.2} -> 1.0.2 (c)
++--- com.beibei.android:xretail_exchange:{strictly 3.12.00} -> 3.12.00 (c)
++--- com.beibei.android:xretail_identify:{strictly 3.7.00} -> 3.7.00 (c)
++--- com.beibei.android:beidai:{strictly 1.6.32} -> 1.6.32 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:{strictly 1.3.20} -> 1.3.20 (c)
++--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.40 -> 1.3.50
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50
+|         \--- org.jetbrains:annotations:13.0
++--- com.android.support.constraint:constraint-layout:1.1.3
+|    \--- com.android.support.constraint:constraint-layout-solver:1.1.3
++--- com.beibei.android:hbsdk:9.40.00
+|    +--- com.android.support:appcompat-v7:28.0.0
+|    |    +--- com.android.support:support-annotations:28.0.0
+|    |    +--- com.android.support:support-compat:28.0.0
+|    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    +--- com.android.support:collections:28.0.0
+|    |    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    |    +--- android.arch.lifecycle:runtime:1.1.1
+|    |    |    |    +--- android.arch.lifecycle:common:1.1.1
+|    |    |    |    |    \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    |    +--- android.arch.core:common:1.1.1
+|    |    |    |    |    \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    |    \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    \--- com.android.support:versionedparcelable:28.0.0
+|    |    |         +--- com.android.support:support-annotations:28.0.0
+|    |    |         \--- com.android.support:collections:28.0.0 (*)
+|    |    +--- com.android.support:collections:28.0.0 (*)
+|    |    +--- com.android.support:cursoradapter:28.0.0
+|    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    +--- com.android.support:support-core-utils:28.0.0
+|    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    +--- com.android.support:documentfile:28.0.0
+|    |    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    |    +--- com.android.support:loader:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    +--- android.arch.lifecycle:livedata:1.1.1
+|    |    |    |    |    +--- android.arch.core:runtime:1.1.1
+|    |    |    |    |    |    +--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    |    |    |    \--- android.arch.core:common:1.1.1 (*)
+|    |    |    |    |    +--- android.arch.lifecycle:livedata-core:1.1.1
+|    |    |    |    |    |    +--- android.arch.lifecycle:common:1.1.1 (*)
+|    |    |    |    |    |    +--- android.arch.core:common:1.1.1 (*)
+|    |    |    |    |    |    \--- android.arch.core:runtime:1.1.1 (*)
+|    |    |    |    |    \--- android.arch.core:common:1.1.1 (*)
+|    |    |    |    \--- android.arch.lifecycle:viewmodel:1.1.1
+|    |    |    |         \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    +--- com.android.support:localbroadcastmanager:28.0.0
+|    |    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    |    \--- com.android.support:print:28.0.0
+|    |    |         \--- com.android.support:support-annotations:28.0.0
+|    |    +--- com.android.support:support-fragment:28.0.0
+|    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    +--- com.android.support:support-core-utils:28.0.0 (*)
+|    |    |    |    +--- com.android.support:customview:28.0.0
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    \--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    +--- com.android.support:viewpager:28.0.0
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    |    \--- com.android.support:customview:28.0.0 (*)
+|    |    |    |    +--- com.android.support:coordinatorlayout:28.0.0
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    |    \--- com.android.support:customview:28.0.0 (*)
+|    |    |    |    +--- com.android.support:drawerlayout:28.0.0
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    |    \--- com.android.support:customview:28.0.0 (*)
+|    |    |    |    +--- com.android.support:slidingpanelayout:28.0.0
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    |    \--- com.android.support:customview:28.0.0 (*)
+|    |    |    |    +--- com.android.support:interpolator:28.0.0
+|    |    |    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.android.support:swiperefreshlayout:28.0.0
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    |    \--- com.android.support:interpolator:28.0.0 (*)
+|    |    |    |    +--- com.android.support:asynclayoutinflater:28.0.0
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    \--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    \--- com.android.support:cursoradapter:28.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:28.0.0 (*)
+|    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    +--- com.android.support:loader:28.0.0 (*)
+|    |    |    \--- android.arch.lifecycle:viewmodel:1.1.1 (*)
+|    |    +--- com.android.support:support-vector-drawable:28.0.0
+|    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    \--- com.android.support:support-compat:28.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:28.0.0
+|    |         +--- com.android.support:support-vector-drawable:28.0.0 (*)
+|    |         \--- com.android.support:support-core-ui:28.0.0 (*)
+|    +--- com.android.support:design:28.0.0
+|    |    +--- com.android.support:support-annotations:28.0.0
+|    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    +--- com.android.support:support-core-ui:28.0.0 (*)
+|    |    +--- com.android.support:support-core-utils:28.0.0 (*)
+|    |    +--- com.android.support:support-fragment:28.0.0 (*)
+|    |    +--- com.android.support:transition:28.0.0
+|    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    \--- com.android.support:support-compat:28.0.0 (*)
+|    |    +--- com.android.support:appcompat-v7:28.0.0 (*)
+|    |    +--- com.android.support:cardview-v7:28.0.0
+|    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    \--- com.android.support:recyclerview-v7:28.0.0
+|    |         +--- com.android.support:support-annotations:28.0.0
+|    |         +--- com.android.support:support-compat:28.0.0 (*)
+|    |         \--- com.android.support:support-core-ui:28.0.0 (*)
+|    +--- com.android.support:multidex:1.0.1 -> 1.0.2
+|    +--- com.android.support:cardview-v7:28.0.0 (*)
+|    +--- com.android.support:recyclerview-v7:28.0.0 (*)
+|    +--- com.android.support:exifinterface:28.0.0
+|    |    \--- com.android.support:support-annotations:28.0.0
+|    +--- com.beibei.android:Share:1.3.11
+|    |    +--- de.greenrobot:eventbus:2.4.0 -> 2.4.1
+|    |    +--- com.android.support:appcompat-v7:26.1.0 -> 28.0.0 (*)
+|    |    +--- com.android.support:design:26.1.0 -> 28.0.0 (*)
+|    |    +--- com.tencent.mm.opensdk:wechat-sdk-android-without-mta:5.4.3
+|    |    +--- com.sina.weibo.sdk:core:4.2.7
+|    |    +--- com.beibei.android:imageloader:3.4.13 -> 3.5.19
+|    |    |    +--- com.android.support:support-v4:28.0.0
+|    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    +--- com.android.support:support-media-compat:28.0.0
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    |    \--- com.android.support:versionedparcelable:28.0.0 (*)
+|    |    |    |    +--- com.android.support:support-core-utils:28.0.0 (*)
+|    |    |    |    +--- com.android.support:support-core-ui:28.0.0 (*)
+|    |    |    |    \--- com.android.support:support-fragment:28.0.0 (*)
+|    |    |    +--- com.beibei.android.glide:glide:4.4.9
+|    |    |    |    +--- com.beibei.android.glide:gifdecoder:4.4.9
+|    |    |    |    |    \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    |    +--- com.beibei.android.glide:disklrucache:4.4.9
+|    |    |    |    \--- com.beibei.android.glide:annotations:4.4.9
+|    |    |    +--- com.beibei.android:analyse:4.2.0 -> 6.1.11
+|    |    |    |    +--- com.android.support:appcompat-v7:28.0.0 (*)
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.beibei.android:PullToRefresh:2.0.3
+|    |    |    |    |    +--- pl.droidsonroids.gif:android-gif-drawable:1.1.10
+|    |    |    |    |    +--- com.android.support:recyclerview-v7:26.1.0 -> 28.0.0 (*)
+|    |    |    |    |    +--- com.android.support:appcompat-v7:26.1.0 -> 28.0.0 (*)
+|    |    |    |    |    \--- com.beibei.android:pulltorefresh-annotations:1.2.1
+|    |    |    |    +--- com.beibei.android:hbrouter:1.4.3 -> 1.4.5
+|    |    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    |    +--- com.beibei.android:hbrouter-annotations:1.3.5-SNAPSHOT -> 1.3.5
+|    |    |    |    |    +--- com.google.code.gson:gson:2.5 -> 2.8.0
+|    |    |    |    |    \--- com.beibei.android:common_utils:1.0.0 -> 1.0.9
+|    |    |    |    +--- com.beibei.android:rtlog:1.1.5
+|    |    |    |    |    +--- com.google.code.gson:gson:2.5 -> 2.8.0
+|    |    |    |    |    \--- com.android.support:support-annotations:23.4.0 -> 28.0.0
+|    |    |    |    \--- com.beibei.android:oreofix-helper:1.0.3
+|    |    |    +--- com.beibei.android:netlibrary:3.1.17 -> 3.1.23
+|    |    |    |    +--- org.msgpack:msgpack-core:0.7.1
+|    |    |    |    +--- com.beibei.android:hbhttpsgate:1.0.6 -> 1.0.15
+|    |    |    |    |    \--- com.android.support:appcompat-v7:28.0.0 (*)
+|    |    |    |    +--- com.squareup.okhttp3:okhttp:3.11.0
+|    |    |    |    |    \--- com.squareup.okio:okio:1.14.0
+|    |    |    |    +--- com.squareup.okhttp3:logging-interceptor:3.10.0
+|    |    |    |    |    \--- com.squareup.okhttp3:okhttp:3.10.0 -> 3.11.0 (*)
+|    |    |    |    \--- com.beibei.android:httpdns:1.1.12
+|    |    |    \--- com.beibei.android:hbwebpdecoder:1.0.0
+|    |    |         +--- com.beibei.android.glide:glide:4.4.9 (*)
+|    |    |         \--- com.android.support:support-v4:26.1.0 -> 28.0.0 (*)
+|    |    +--- com.beibei.android:analyse:6.0.29 -> 6.1.11 (*)
+|    |    +--- com.tencent.bugly:crashreport:2.2.2 -> 2.8.6.0
+|    |    \--- com.beibei.android:netlibrary:1.0.15 -> 3.1.23 (*)
+|    +--- com.beibei.android:analyse:6.1.11 (*)
+|    +--- com.beibei.android:autodata:1.5.9
+|    |    +--- com.android.support:appcompat-v7:28.0.0 (*)
+|    |    \--- com.beibei.android:analyse:6.0.25 -> 6.1.11 (*)
+|    +--- com.beibei.android:PullToRefresh:2.0.3 (*)
+|    +--- com.beibei.android:httpdns:1.1.12
+|    +--- com.beibei.android:netlibrary:3.1.23 (*)
+|    +--- com.beibei.android:imageloader:3.5.19 (*)
+|    +--- com.beibei.android:viewpagerindicator:1.0.0
+|    |    \--- com.android.support:support-v4:23.0.1 -> 28.0.0 (*)
+|    +--- com.beibei.android:zxing:1.0.17
+|    |    +--- com.android.support:appcompat-v7:28.0.0 (*)
+|    |    +--- com.beibei.android:basesdk:4.9.8 -> 8.1.07
+|    |    |    +--- com.android.support:appcompat-v7:23.2.1 -> 28.0.0 (*)
+|    |    |    +--- com.beibei.android:analyse:4.9.9 -> 6.1.11 (*)
+|    |    |    +--- com.beibei.android:PullToRefresh:2.0.3 (*)
+|    |    |    \--- com.beibei.android:netlibrary:1.0.6 -> 3.1.23 (*)
+|    |    \--- com.google.zxing:core:3.3.2
+|    +--- com.beibei.android:pagerslidingtabstrip:1.1.6
+|    |    \--- com.android.support:support-v4:23.2.1 -> 28.0.0 (*)
+|    +--- com.beibei.android:xmppsdk:1.5.9
+|    |    +--- com.google.code.gson:gson:2.7 -> 2.8.0
+|    |    +--- com.orhanobut:logger:1.8
+|    |    +--- de.greenrobot:eventbus:2.4.1
+|    |    \--- com.android.support:support-v4:23.4.0 -> 28.0.0 (*)
+|    +--- com.beibei.android:basesdk:8.1.07 (*)
+|    +--- com.beibei.android:colortextview:1.0.5
+|    |    \--- com.google.code.gson:gson:2.5 -> 2.8.0
+|    +--- com.beibei.android:common_utils:1.0.9
+|    +--- com.beibei.android:hbrouter:1.4.5 (*)
+|    +--- com.beibei.android:hbrouter-annotations:1.3.5
+|    +--- com.beibei.android:hbaction:1.1.4
+|    |    \--- com.google.code.gson:gson:2.5 -> 2.8.0
+|    +--- com.beibei.android:hbhybrid:3.6.0
+|    |    \--- com.beibei.android:PullToRefresh:2.0.0 -> 2.0.3 (*)
+|    +--- com.beibei.android:hbpoplayer:1.0.0
+|    |    +--- com.google.code.gson:gson:2.7 -> 2.8.0
+|    |    \--- com.beibei.android:hbhybrid:1.2.6 -> 3.6.0 (*)
+|    +--- com.beibei.android:hblocation:2.0.6
+|    +--- com.beibei.android:hbview:1.3.2
+|    |    +--- com.android.support:support-annotations:23.4.0 -> 28.0.0
+|    |    +--- com.android.support:appcompat-v7:23.4.0 -> 28.0.0 (*)
+|    |    +--- com.android.support:recyclerview-v7:23.4.0 -> 28.0.0 (*)
+|    |    +--- com.beibei.android:imageloader:3.1.4 -> 3.5.19 (*)
+|    |    \--- com.beibei.android:analyse:6.0.5 -> 6.1.11 (*)
+|    +--- com.beibei.android:adsfetcher:2.0.1
+|    |    \--- com.android.support:appcompat-v7:23.2.1 -> 28.0.0 (*)
+|    +--- com.beibei.android:hbupdate:1.4.0
+|    |    +--- com.android.support:appcompat-v7:26.1.0 -> 28.0.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.0
+|    +--- com.beibei.android:hbvideoplayer:1.2.8
+|    |    +--- tv.danmaku.ijk.media:ijkplayer-java:0.8.4
+|    |    +--- tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4
+|    |    \--- com.android.support:appcompat-v7:28.0.0 (*)
+|    +--- com.beibei.android:hburanus:3.2.11
+|    |    +--- com.android.support:appcompat-v7:26.1.0 -> 28.0.0 (*)
+|    |    +--- com.huawei.android.hms:push:2.6.3.301
+|    |    |    \--- com.huawei.android.hms:base:2.6.3.301
+|    |    \--- com.getui:sdk:2.13.2.0
+|    +--- com.beibei.android:hbhttpsgate:1.0.15 (*)
+|    +--- com.beibei.android:hblabels:1.0.6
+|    |    +--- com.android.support:appcompat-v7:25.1.1 -> 28.0.0 (*)
+|    |    \--- com.google.code.gson:gson:2.8.0
+|    +--- com.beibei.android:hbcell:1.0.2
+|    |    \--- com.beibei.android:basesdk:4.9.8 -> 8.1.07 (*)
+|    +--- com.beibei.android:rtlog:1.1.5 (*)
+|    +--- com.beibei.android:hbpatch:1.1.1
+|    |    \--- com.tencent.tinker:tinker-android-lib:1.9.14
+|    |         +--- com.tencent.tinker:tinker-android-loader:1.9.14
+|    |         \--- com.tencent.tinker:tinker-commons:1.9.14
+|    |              +--- com.tencent.tinker:aosp-dexutils:1.9.14
+|    |              +--- com.tencent.tinker:bsdiff-util:1.9.14
+|    |              \--- com.tencent.tinker:tinker-ziputils:1.9.14
+|    +--- com.beibei.android:hblog:1.1.2
+|    +--- com.beibei.android:hbmarsxlog:1.0.1
+|    +--- com.beibei.android:hbreporter:1.0.10
+|    |    +--- com.beibei.android:common_utils:1.0.0 -> 1.0.9
+|    |    +--- com.google.code.gson:gson:2.5 -> 2.8.0
+|    |    \--- com.android.support:support-annotations:23.4.0 -> 28.0.0
+|    +--- com.beibei.android:bizview:9.5.00
+|    +--- com.beibei.android:debugdevelopsdk:1.0.0
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.30 -> 1.3.50 (*)
+|    +--- com.beibei.android:hbscene:1.2.0
+|    +--- me.imid.swipebacklayout.lib:library:1.1.0
+|    +--- se.emilsjolander:stickylistheaders:2.7.0
+|    +--- com.google.code.gson:gson:2.5 -> 2.8.0
+|    +--- com.squareup.okhttp3:okhttp:3.11.0 (*)
+|    +--- de.greenrobot:eventbus:2.4.0 -> 2.4.1
+|    +--- com.orhanobut:logger:1.8
+|    +--- com.makeramen:roundedimageview:1.5.0
+|    +--- jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1
+|    +--- com.tencent.bugly:crashreport:2.8.6.0
+|    +--- com.github.hotchemi:permissionsdispatcher:2.2.0 -> 3.3.1
+|    |    \--- com.github.hotchemi:permissionsdispatcher-annotation:3.3.1
+|    +--- com.google.android:flexbox:0.2.3 -> 0.3.1
+|    |    +--- com.android.support:support-compat:26.0.0 -> 28.0.0 (*)
+|    |    \--- com.android.support:recyclerview-v7:26.0.0 -> 28.0.0 (*)
+|    +--- com.samskivert:jmustache:1.13
+|    +--- com.squareup.duktape:duktape-android:1.1.0 -> 1.2.0
+|    +--- org.jsoup:jsoup:1.10.1 -> 1.11.2
+|    +--- com.alibaba:fastjson:1.2.67
+|    +--- com.jakewharton:butterknife:9.0.0
+|    |    \--- com.jakewharton:butterknife-runtime:9.0.0
+|    |         +--- com.jakewharton:butterknife-annotations:9.0.0
+|    |         |    \--- com.android.support:support-annotations:28.0.0
+|    |         \--- com.android.support:support-compat:28.0.0 (*)
+|    +--- com.github.wangjiegulu:ShadowViewHelper:1.0.2
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    +--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    +--- com.beibei.android:hbautumn:2.1.23
+|    |    +--- com.android.support:appcompat-v7:23.2.1 -> 28.0.0 (*)
+|    |    +--- com.google.code.gson:gson:2.7 -> 2.8.0
+|    |    +--- com.squareup.duktape:duktape-android:1.2.0
+|    |    +--- com.google.android:flexbox:0.3.1 (*)
+|    |    +--- com.makeramen:roundedimageview:1.5.0
+|    |    +--- com.samskivert:jmustache:1.13
+|    |    +--- org.jsoup:jsoup:1.11.2
+|    |    +--- com.alibaba:fastjson:1.1.46.android -> 1.2.67
+|    |    +--- com.facebook.yoga.android:yoga-layout:1.10.0
+|    |    |    \--- com.facebook.yoga:yoga:1.10.0
+|    |    +--- com.facebook.soloader:soloader:0.8.0
+|    |    |    +--- com.facebook.soloader:annotation:0.8.0
+|    |    |    \--- com.facebook.soloader:nativeloader:0.8.0
+|    |    +--- com.beibei.android:viewpagerindicator:1.0.0 (*)
+|    |    \--- com.beibei.android:zxing:1.0.10 -> 1.0.17 (*)
+|    +--- com.beibei.android:hbfeedback:1.1.6
+|    |    +--- com.android.support:recyclerview-v7:23.4.0 -> 28.0.0 (*)
+|    |    \--- com.android.support:appcompat-v7:23.4.0 -> 28.0.0 (*)
+|    +--- com.beibei.android:lottie:2.2.5
+|    |    \--- com.android.support:appcompat-v7:27.1.1 -> 28.0.0 (*)
+|    +--- com.beibei.android.ucrop:ucrop:2.2.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.1 -> 3.11.0 (*)
+|    +--- com.llew.huawei:verifier:1.1.1
+|    +--- com.meituan.android.walle:library:1.1.6
+|    |    +--- com.android.support:support-annotations:24.1.1 -> 28.0.0
+|    |    \--- com.meituan.android.walle:payload_reader:1.1.6
+|    \--- commons-io:commons-io:2.4
++--- project :xretail_sdk
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.40 -> 1.3.50 (*)
+|    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.1
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.50 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50
+|    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.1
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.50 (*)
+|    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.1 (*)
+|    +--- com.beibei.android:hbsdk:9.40.00 (*)
+|    +--- com.getui:gysdk:1.6.0.1
+|    +--- com.getui:gtc:2.1.0
+|    +--- com.getui:elogin:1.1.0.1
+|    +--- com.beibei.android:hbdevsdk:1.1.4
+|    |    +--- com.beibei.android:hbsdk:9.22.01 -> 9.40.00 (*)
+|    |    \--- me.weishu:free_reflection:2.1.0
+|    +--- com.android.support:palette-v7:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0 -> 28.0.0 (*)
+|    |    \--- com.android.support:support-core-utils:26.1.0 -> 28.0.0 (*)
+|    +--- com.github.chrisbanes:PhotoView:2.0.0
+|    |    \--- com.android.support:support-core-utils:25.3.0 -> 28.0.0 (*)
+|    +--- com.beibei.android:oreofix-helper:1.0.2 -> 1.0.3
+|    \--- com.github.hotchemi:permissionsdispatcher:3.3.1 (*)
++--- project :xretail_compat
+|    +--- com.beibei.android:hbsdk:9.40.00 (*)
+|    \--- project :xretail_sdk (*)
++--- project :xretail_home
++--- com.beibei.android:weex:2.0.26
+|    +--- com.beibei.android:weex_sdk:0.28.0.20
+|    |    \--- com.android.support:multidex:1.0.2
+|    +--- com.beibei.android:hbsdk:9.36.04 -> 9.40.00 (*)
+|    +--- com.beibei.android:weexinspector:1.0.40
+|    |    \--- com.android.support:appcompat-v7:28.0.0 (*)
+|    +--- com.taobao.android.weex_inspection:protocol:1.1.2
+|    +--- com.squareup.okhttp:okhttp:2.3.0
+|    |    \--- com.squareup.okio:okio:1.3.0 -> 1.14.0
+|    +--- com.squareup.okhttp:okhttp-ws:2.3.0
+|    |    \--- com.squareup.okhttp:okhttp:2.3.0 (*)
+|    +--- org.ccil.cowan.tagsoup:tagsoup:1.2.1
+|    +--- com.alibaba.android:bindingx-core:1.0.2
+|    \--- com.alibaba.android:bindingx_weex_plugin:1.0.2
++--- project :xretail_brand
+|    \--- project :xretail_sdk (*)
++--- project :xretail_member
+|    \--- project :xretail_sdk (*)
++--- project :xretail_trade
+|    \--- project :xretail_sdk (*)
++--- project :xretail_share
+|    \--- project :xretail_sdk (*)
++--- project :xretail_search
+|    \--- project :xretail_sdk (*)
++--- project :xretail_biz
++--- project :xretail_bargain
+|    \--- project :xretail_sdk (*)
++--- com.beibei.android:xretail_exchange:3.12.00
++--- com.beibei.android:xretail_identify:3.7.00
++--- com.beibei.android:beidai:1.6.32
+|    +--- com.beibei.android:hbsdk:9.34.05 -> 9.40.00 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.20 -> 1.3.50 (*)
+\--- project :xretail_store
+     \--- project :xretail_sdk (*)
+
+(c) - dependency constraint
+(*) - dependencies omitted (listed previously)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 14s
+1 actionable task: 1 executed

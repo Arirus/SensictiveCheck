@@ -36,7 +36,8 @@ sensitivecheckConfig {
 
     /**配置敏感权限*/
     checkPermission = [
-            'android.permission.WRITE_EXTERNAL_STORAGE',    //允许APP写入外置存储器
+            'android.permission.READ_CALL_LOG',    //允许APP写入外置存储器
+            'android.permission.READ_PHONE_STATE',
     ]
 
 

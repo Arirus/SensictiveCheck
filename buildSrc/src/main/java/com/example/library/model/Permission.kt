@@ -6,5 +6,6 @@ data class PackagePermission(
 )
 
 data class PermissionModel(
-    var name: String? = null
+    var name: String? = null,
+    var isDanger:Boolean? = false
 )

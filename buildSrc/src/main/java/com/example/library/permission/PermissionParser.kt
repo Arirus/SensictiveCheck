@@ -15,15 +15,18 @@ object PermissionParser {
     private val sParserFactory: SAXParserFactory = SAXParserFactory.newInstance()
 
 
-    fun parsePermission(file: File): PackagePermission {
+    fun parsePermission(file: File, packageFilter: List<String>?): PackagePermission {
         val parser = XmlUtils.createSaxParser(sParserFactory)
         val permission = PackagePermission()
-        parser.parse(file, MyHandler(permission))
+        parser.parse(file, MyHandler(permission, packageFilter))
         return permission
     }
 
 
-    class MyHandler(private val permissions: PackagePermission) : DefaultHandler() {
+    class MyHandler(
+        private val permissions: PackagePermission,
+        private val packageFilter: List<String>?
+    ) : DefaultHandler() {
 
         @Throws(SAXException::class)
         override fun startElement(
@@ -35,6 +38,7 @@ object PermissionParser {
                 AndroidManifest.NODE_MANIFEST ->
                     takeIf {
                         attributes?.getLocalName(1) == AndroidManifest.ATTRIBUTE_PACKAGE
+                                && packageFilter?.run { this.contains(attributes.getValue(1)) } != true
                     }?.run {
                         permissions.packageName = attributes?.getValue(1)
                     }
@@ -42,6 +46,7 @@ object PermissionParser {
                 AndroidManifest.NODE_USES_PERMISSION ->
                     takeIf {
                         attributes?.getLocalName(0) == "android:name"
+                                && !permissions.packageName.isNullOrEmpty()
                     }?.run {
                         permissions.permissions.add(PermissionModel(attributes?.getValue(0)))
                     }

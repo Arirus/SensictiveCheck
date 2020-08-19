@@ -10,7 +10,6 @@ import org.gradle.api.tasks.*
 
 @CacheableTask
 open class PermissionCheckTask() : DefaultTask() {
-    fun Project.hasTask(name: String) = this.tasks.findByName(name) != null
 
     companion object {
         const val TASK_SUFFIX = "ManifestPermissionCheck"

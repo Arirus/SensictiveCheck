@@ -2,6 +2,7 @@ package com.example.library
 
 import com.android.build.gradle.AppExtension
 import com.android.build.gradle.AppPlugin
+import com.example.library.code.CheckTransform
 import com.example.library.code.CodeCheckTask
 import com.example.library.model.SensitiveCheckExtension
 import com.example.library.permission.PermissionCheckTask
@@ -25,72 +26,75 @@ class SensitiveCheckPlugin : Plugin<Project> {
 
         project.plugins.filterIsInstance<AppPlugin>().forEach { _ ->
             project.extensions.findByType(AppExtension::class.java)?.run {
-                applicationVariants.all { variant ->
 
+                registerTransform(CheckTransform())
 
-                    takeIf {
-                        !project.hasTask(variant.name + PermissionCheckTask.TASK_SUFFIX)
-                    }?.run {
-                        PermissionCheckTask.register(project, variant, mConfig)
-                    }
-
-                    takeIf {
-                        !project.hasTask(variant.name + CodeCheckTask.TASK_SUFFIX)
-                    }?.run {
-                        CodeCheckTask.register(project, variant, mConfig)
-                    }
-
-//                    var manifestCheckTask =
-//                        project.tasks.findByName(variant.name + PermissionCheckTask.TASK_SUFFIX)
-//                    if (manifestCheckTask == null) {
-//                        val processManifestTask =
-//                            project.tasks.findByName("process${variant.name.capitalize()}Manifest")
+//                applicationVariants.all { variant ->
 //
-//                        manifestCheckTask =
-//                            project.tasks.create(
-//                                variant.name + ManifestPermissionCheck,
-//                                PermissionCheckTask::class.java
-//                            ) {
-//                                it.sources = processManifestTask?.inputs?.files
-//                                it.dangerPermissions = mConfig.checkPermission
-//                                it.packageFilter = mConfig.filterPackages
-//                            }
 //
-//                        project.afterEvaluate {
-////                            manifestCheckTask?.dependsOn(
-////                                processManifestTask?.taskDependencies?.getDependencies(
-////                                    processManifestTask
-////                                )
-////                            )
-//                            processManifestTask?.dependsOn(manifestCheckTask)
-//                        }
+//                    takeIf {
+//                        !project.hasTask(variant.name + PermissionCheckTask.TASK_SUFFIX)
+//                    }?.run {
+//                        PermissionCheckTask.register(project, variant, mConfig)
 //                    }
-
-//                        var CodeCheckTask =
-//                            project.tasks.findByName(variant.name + SensitiveCodeCheck)
-//                        if (CodeCheckTask != null) return@all
 //
-//                        val outputFileName = "sensitive_result.txt"
+//                    takeIf {
+//                        !project.hasTask(variant.name + CodeCheckTask.TASK_SUFFIX)
+//                    }?.run {
+//                        CodeCheckTask.register(project, variant, mConfig)
+//                    }
 //
+////                    var manifestCheckTask =
+////                        project.tasks.findByName(variant.name + PermissionCheckTask.TASK_SUFFIX)
+////                    if (manifestCheckTask == null) {
+////                        val processManifestTask =
+////                            project.tasks.findByName("process${variant.name.capitalize()}Manifest")
+////
+////                        manifestCheckTask =
+////                            project.tasks.create(
+////                                variant.name + ManifestPermissionCheck,
+////                                PermissionCheckTask::class.java
+////                            ) {
+////                                it.sources = processManifestTask?.inputs?.files
+////                                it.dangerPermissions = mConfig.checkPermission
+////                                it.packageFilter = mConfig.filterPackages
+////                            }
+////
+////                        project.afterEvaluate {
+//////                            manifestCheckTask?.dependsOn(
+//////                                processManifestTask?.taskDependencies?.getDependencies(
+//////                                    processManifestTask
+//////                                )
+//////                            )
+////                            processManifestTask?.dependsOn(manifestCheckTask)
+////                        }
+////                    }
 //
-//                        val compileJavaTask =
-//                            project.tasks.findByName("compile${variant.name.capitalize()}JavaWithJavac")
+////                        var CodeCheckTask =
+////                            project.tasks.findByName(variant.name + SensitiveCodeCheck)
+////                        if (CodeCheckTask != null) return@all
+////
+////                        val outputFileName = "sensitive_result.txt"
+////
+////
+////                        val compileJavaTask =
+////                            project.tasks.findByName("compile${variant.name.capitalize()}JavaWithJavac")
+////
+////                        CodeCheckTask =
+////                            project.tasks.create(variant.name + SensitiveCodeCheck).doLast {
+////                                println("sensitive_check = ${mConfig.checkSwitch}")
+////
+////                            }
+////
+////                        CodeCheckTask.dependsOn(
+////                            compileJavaTask?.taskDependencies?.getDependencies(
+////                                compileJavaTask
+////                            )
+////                        )
+////
+////                        compileJavaTask?.dependsOn(CodeCheckTask)
 //
-//                        CodeCheckTask =
-//                            project.tasks.create(variant.name + SensitiveCodeCheck).doLast {
-//                                println("sensitive_check = ${mConfig.checkSwitch}")
-//
-//                            }
-//
-//                        CodeCheckTask.dependsOn(
-//                            compileJavaTask?.taskDependencies?.getDependencies(
-//                                compileJavaTask
-//                            )
-//                        )
-//
-//                        compileJavaTask?.dependsOn(CodeCheckTask)
-
-                }
+//                }
             }
 //            }
         }

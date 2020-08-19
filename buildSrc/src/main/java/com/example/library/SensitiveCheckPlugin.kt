@@ -2,7 +2,7 @@ package com.example.library
 
 import com.android.build.gradle.AppExtension
 import com.android.build.gradle.AppPlugin
-import com.example.library.code.CodeCheckTask
+import com.example.library.code.CodeCheckTransform
 import com.example.library.model.SensitiveCheckExtension
 import com.example.library.permission.PermissionCheckTask
 import org.gradle.api.Plugin
@@ -25,6 +25,13 @@ class SensitiveCheckPlugin : Plugin<Project> {
 
         project.plugins.filterIsInstance<AppPlugin>().forEach { _ ->
             project.extensions.findByType(AppExtension::class.java)?.run {
+//                project.afterEvaluate {
+//                    mConfig.checkCallMethodMapList?.let {
+                        this.registerTransform(CodeCheckTransform(mConfig))
+//                    }
+//                }
+
+
                 applicationVariants.all { variant ->
 
 
@@ -33,12 +40,12 @@ class SensitiveCheckPlugin : Plugin<Project> {
                     }?.run {
                         PermissionCheckTask.register(project, variant, mConfig)
                     }
-
-                    takeIf {
-                        !project.hasTask(variant.name + CodeCheckTask.TASK_SUFFIX)
-                    }?.run {
-                        CodeCheckTask.register(project, variant, mConfig)
-                    }
+//
+//                    takeIf {
+//                        !project.hasTask(variant.name + CodeCheckTask.TASK_SUFFIX)
+//                    }?.run {
+//                        CodeCheckTask.register(project, variant, mConfig)
+//                    }
 
 //                    var manifestCheckTask =
 //                        project.tasks.findByName(variant.name + PermissionCheckTask.TASK_SUFFIX)

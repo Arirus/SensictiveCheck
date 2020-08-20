@@ -3,6 +3,7 @@ package com.example.library.code
 import com.android.build.gradle.api.ApplicationVariant
 import com.example.library.model.SensitiveCheckExtension
 import com.example.library.permission.PermissionCheckTask
+import org.apache.bcel.classfile.ClassParser
 import org.gradle.api.DefaultTask
 import org.gradle.api.Project
 import org.gradle.api.file.FileCollection
@@ -53,6 +54,9 @@ open class CodeCheckTask : DefaultTask() {
     fun start() {
         sources?.forEach { file ->
             println(file.absolutePath)
+//            ClassParser()
+//            Parse
+
         }
 
 

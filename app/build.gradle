@@ -30,8 +30,8 @@ sensitivecheckConfig {
 
     /**配置敏感方法*/
     checkCallMethodMapList = [
-            [className:'DexClassLoader', methodName:''],                        //动态加载dex
-
+            [className:'PathClassLoader', methods:['getParent','toString']],  //动态加载dex
+            [className: "AlarmManager"],
     ]
 
     /**配置敏感权限*/

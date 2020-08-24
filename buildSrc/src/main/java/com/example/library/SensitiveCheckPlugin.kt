@@ -27,6 +27,7 @@ class SensitiveCheckPlugin : Plugin<Project> {
             project.extensions.findByType(AppExtension::class.java)?.run {
 //                project.afterEvaluate {
 //                    mConfig.checkCallMethodMapList?.let {
+                        println("REGISTER TRANSFORM")
                         this.registerTransform(CodeCheckTransform(mConfig))
 //                    }
 //                }
